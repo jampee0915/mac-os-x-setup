@@ -1,0 +1,28 @@
+---
+
+- name: add homebrew tap repository
+  homebrew_tap:
+    tap: "{{ item.tap }}"
+    state: present
+  with_items:
+    - "{{ homebrew_taps }}"
+
+- name: install homebrew cask packages
+  homebrew_cask:
+    name: "{{ item.name }}"
+    state: present
+    install_options: 'appdir=/Applications'
+  with_items:
+    - "{{ homebrew_cask_packages }}"
+
+- name: install homebrew packages
+  homebrew:
+    name: "{{ item.name }}"
+    state: present
+  with_items:
+    - "{{ homebrew_packages }}"
+
+- name: install app store applications
+  command: mas install "{{ item.id }}"
+  with_items:
+    - "{{ mas_packages }}"
