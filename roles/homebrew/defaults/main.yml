@@ -22,6 +22,7 @@ homebrew_cask_packages:
   - { name: slack }
   - { name: atom }
   - { name: kindle }
+  - { name: amazon-music }
 
 homebrew_packages:
   - { name: git }
@@ -37,10 +38,14 @@ homebrew_packages:
   - { name: reattach-to-user-namespace }
   - { name: go }
   - { name: scala }
+  - { name: typesafe-activator }
   - { name: sbt }
   - { name: terraform }
   - { name: python }
   - { name: nodebrew }
+  - { name: awscli }
+  - { name: vim }
+  - { name: plantuml }
 
 mas_packages:
   - { id: 441258766 }  # Magnet

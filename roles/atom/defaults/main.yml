@@ -11,3 +11,8 @@ atom_packages:
   - { name: minimap-git-diff }
   - { name: linter }
   - { name: linter-ui-default }
+  - { name: plantuml }
+  - { name: plantuml-viewer }
+  - { name: seti-syntax }
+  - { name: seti-ui }
+  - { name: language-plantuml }
