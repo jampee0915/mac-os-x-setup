@@ -1,0 +1,59 @@
+---
+
+homebrew_taps:
+  - { tap: caskroom/cask }
+
+homebrew_cask_packages:
+  - { name: iterm2 }
+  - { name: java }
+  - { name: google-chrome }
+  - { name: google-japanese-ime }
+  - { name: avast-security }
+  - { name: clipy }
+  - { name: hyperswitch }
+  - { name: vlc }
+  - { name: intellij-idea }
+  - { name: adobe-creative-cloud }
+  - { name: boostnote }
+  - { name: appcleaner }
+  - { name: docker }
+  - { name: karabiner-elements }
+  - { name: alfred }
+  - { name: slack }
+  - { name: atom }
+  - { name: kindle }
+  - { name: amazon-music }
+
+homebrew_packages:
+  - { name: git }
+  - { name: wget }
+  - { name: curl }
+  - { name: openssl }
+  - { name: mas }
+  - { name: zsh-completions }
+  - { name: peco }
+  - { name: ghq }
+  - { name: hub }
+  - { name: tmux }
+  - { name: reattach-to-user-namespace }
+  - { name: go }
+  - { name: scala }
+  - { name: typesafe-activator }
+  - { name: sbt }
+  - { name: terraform }
+  - { name: python }
+  - { name: nodebrew }
+  - { name: awscli }
+  - { name: vim }
+  - { name: plantuml }
+
+mas_packages:
+  - { id: 441258766 }  # Magnet
+  - { id: 443987910 }  # 1password
+  - { id: 1055273043 } # PDF Expert
+  - { id: 539883307 }  # LINE
+  - { id: 714196447 }  # MenuBar Stats
+  - { id: 992076693 }  # MindNode
+  - { id: 403388562 }  # Transmit
+  - { id: 402376225 }  # MarsEdit
+  - { id: 409183694 }  # Keynote

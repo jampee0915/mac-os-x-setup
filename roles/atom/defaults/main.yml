@@ -1,0 +1,18 @@
+---
+  
+atom_packages:
+  - { name: vim-mode }
+  - { name: highlight-selected }
+  - { name: minimap }
+  - { name: file-icons }
+  - { name: show-ideographic-space }
+  - { name: emmet }
+  - { name: project-manager }
+  - { name: minimap-git-diff }
+  - { name: linter }
+  - { name: linter-ui-default }
+  - { name: plantuml }
+  - { name: plantuml-viewer }
+  - { name: seti-syntax }
+  - { name: seti-ui }
+  - { name: language-plantuml }

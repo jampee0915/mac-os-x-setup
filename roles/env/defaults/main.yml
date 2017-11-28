@@ -1,0 +1,11 @@
+---
+work_dir: "{{ ansible_user_dir }}/works"
+
+git_repositories:
+  - { repo: "https://github.com/rabichan/dotfiles.git", dest: "{{ work_dir }}" }
+
+symlinks:
+  - { src: "{{ work_dir }}/dotfiles/.zsh.d", dest: ~/.zsh.d }
+  - { src: "{{ work_dir }}/dotfiles/.zshrc", dest: ~/.zshrc }
+  - { src: "{{ work_dir }}/dotfiles/.vimrc", dest: ~/.vimrc }
+  - { src: "{{ work_dir }}/dotfiles/.tmux.conf", dest: ~/.tmux.conf }
