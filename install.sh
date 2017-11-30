@@ -15,6 +15,9 @@ xcode-select --install
 echo "Start homebrew install"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+echo "Install oh-my-zsh"
+curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh
+
 # Install python and ansible
 echo "Start python and ansible install"
 brew update

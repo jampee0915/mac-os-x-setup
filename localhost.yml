@@ -6,3 +6,4 @@
   roles:
     - { role: homebrew, tags: [ homebrew ] }
     - { role: atom, tags: [ atom ] }
+    - { role: env, tags: [ env ] }

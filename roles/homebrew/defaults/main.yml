@@ -13,7 +13,6 @@ homebrew_cask_packages:
   - { name: hyperswitch }
   - { name: vlc }
   - { name: intellij-idea }
-  - { name: adobe-creative-cloud }
   - { name: boostnote }
   - { name: appcleaner }
   - { name: docker }
@@ -22,7 +21,6 @@ homebrew_cask_packages:
   - { name: slack }
   - { name: atom }
   - { name: kindle }
-  - { name: amazon-music }
 
 homebrew_packages:
   - { name: git }

@@ -2,7 +2,7 @@
 work_dir: "{{ ansible_user_dir }}/works"
 
 git_repositories:
-  - { repo: "https://github.com/rabichan/dotfiles.git", dest: "{{ work_dir }}" }
+  - { repo: "https://github.com/rabichan/dotfiles.git", dest: "{{ work_dir }}/dotfiles" }
 
 symlinks:
   - { src: "{{ work_dir }}/dotfiles/.zsh.d", dest: ~/.zsh.d }
